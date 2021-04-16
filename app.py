@@ -1,6 +1,5 @@
 import streamlit as st
 import sklearn
-import scikit
 import joblib
 model = joblib.load('Email_Class')
 st.title('viral/limited Classifier')
