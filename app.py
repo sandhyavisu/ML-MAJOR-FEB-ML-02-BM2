@@ -1,4 +1,5 @@
 import streamlit as st
+import scikit--learn
 import sklearn
 import joblib
 model = joblib.load('Email_Class')
