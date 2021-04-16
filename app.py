@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 import sklearn
 import joblib
@@ -8,7 +7,5 @@ ip = st.text_input('Enter your message')
 op = model.predict([ip])
 if st.button('Predict'):
   st.title(op[0])
-
-  
   
   
